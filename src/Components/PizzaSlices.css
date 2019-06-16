@@ -1,0 +1,52 @@
+.pizza {
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  border: 2px solid rgb(58, 58, 58);
+  background-color: rgb(248, 215, 144);
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: 10px;
+  z-index: -3;
+}
+
+.cheese {
+  margin: 25px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: yellow;
+  z-index: -2;
+}
+
+.pepperoni {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(250, 103, 18);
+  z-index: 0;
+  position: absolute;
+  transform-origin: 50% -60px;
+  left: 130px;
+  bottom: 50px;
+}
+
+.cut {
+  width: 50%;
+  height: 2px;
+  transform-origin: 0 50%;
+  border: none;
+  background-color: rgb(58, 58, 58);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+p {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.hidden {
+  display: none;
+}

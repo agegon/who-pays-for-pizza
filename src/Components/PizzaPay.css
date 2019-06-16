@@ -1,0 +1,32 @@
+.pay-pizza {
+  width: 100%;
+  max-width: 600px;
+  margin: 15px auto;
+}
+.pay-pizza caption {
+  font-size: 20px;
+  padding: 5px 0;
+}
+.pay-pizza button {
+  padding: 5px 0;
+  width: 70px;
+  border: none;
+  border-radius: 5px;
+  background: rgb(241, 125, 16);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+.pay-pizza .paid {
+  background: rgb(248, 215, 144);
+}
+
+.vegan {
+  color: rgb(65, 204, 0);
+}
+
+tr {
+  height: 30px;
+}
+.gray {
+  background-color: rgb(253, 246, 143);
+}

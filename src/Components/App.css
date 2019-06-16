@@ -1,0 +1,49 @@
+.flex-wrap {
+  text-align: center;
+  width: 100%;
+  max-width: 620px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.btn {
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: rgb(197, 39, 39);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.loading {
+  background: rgb(121, 121, 121);
+}
+
+@keyframes loading {
+  from {
+    color: rgb(50, 50, 50);
+  }
+  to {
+    color: rgb(200, 200, 200);
+  }
+}
+
+.loading-text {
+  font-size: 24px;
+  text-align: center;
+  margin: 20%;
+  animation: loading 1s alternate-reverse infinite linear;
+}
+
+h2 {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  user-select: none;
+}
