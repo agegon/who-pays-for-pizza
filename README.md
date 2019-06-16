@@ -1,7 +1,6 @@
 ## Example of working application
 
-How the application works you can see here:
-### [Codesandbox](https://yjq2p52wyj.codesandbox.io/).
+How the application works you can see here: [Codesandbox](https://yjq2p52wyj.codesandbox.io/).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
